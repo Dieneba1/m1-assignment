@@ -50,6 +50,13 @@ table {
 table, caption, th, td {
     border: 1px solid #000;
 }
+thead th {
+    background-color: rgb(255, 245, 238);
+}
+
+tbody tr:hover {
+    background-color: rgb(245, 245, 245);
+}
 th, td {
     width: 150px;
     height: 35px;
