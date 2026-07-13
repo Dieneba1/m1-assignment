@@ -79,3 +79,18 @@ main a:hover {
 main img:hover {
     opacity: 0.85;
 }
+/* Paragraphs */
+main p {
+    color: #333;
+    line-height: 1.6;
+    max-width: 700px;
+    margin-bottom: 15px;
+}
+
+/* Lists inside main content (e.g. "Why Adopt" list) */
+main ul li {
+    list-style-type: disc;
+    display: list-item;
+    padding: 4px 0;
+    color: #333;
+}
